@@ -1,2 +1,2 @@
 # DBaN-Architecture
-Enhancing Low-Resolution Facial Recognition with Dual Block Attention Network and Resolution Aware Images
+<img src="DBaN.png" alt="Architecture of DBaN">
