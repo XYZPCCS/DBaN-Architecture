@@ -35,7 +35,7 @@ class channel_attention_module(nn.Module):
 class spatial_attention_module(nn.Module):
     def __init__(self, kernel_size=3):
         super().__init__()
-        self.conv = nn.Conv2d(2, 1, kernel_size=kernel_size, padding=(kernel_size-1)//2, bias=False) # padding size is (k-1)//2 for the image size to be same
+        self.conv = nn.Conv2d(2, 1, kernel_size=kernel_size, padding=(kernel_size-1)//2, bias=False)
         self.sigmoid = nn.Sigmoid()
 
     def forward(self, x):
